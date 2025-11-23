@@ -88,21 +88,34 @@ class Spacecraft():
         self.position = position
         self.battery = battery
         
+    def calculate_new_position(self, direction):
+        
+        x, y = self.position
+
+        dir_map = {
+            "N": (0, 1),
+            "S": (0, -1),
+            "E": (1, 0),
+            "W": (-1, 0)
+        }
+
+        if direction not in dir_map:
+            return None
+
+        dx, dy = dir_map[direction]
+        
+        return (x + dx, y + dy) #returning the updated position tuple
+        
     def moveRover(self, direction, planet):
         #we will use the battery to move the rover in the NSEW directions
         #we will consider 1 unit on this scale to be about 1 km
         
-        x, y = self.position
-        if (direction == "N"):
-            y += 1
-        elif (direction == "S"):
-            y -= 1
-        elif (direction == "W"):
-            x -= 1
-        elif (direction == "E"):
-            x += 1
-        else:
-            return False #invalid direction case
+        new_pos = self.calculate_new_position(direction)
+        if (new_pos is None):
+            print("Invalid direction.")
+            return False
+
+        x, y = new_pos
             
         #checking battery
         if self.battery <= 0:
@@ -157,17 +170,13 @@ class Drone(Spacecraft):
         self.max_altitude = max_altitude
 
     def moveDrone(self, direction, planet):
-        x, y = self.position #assigning position to the drone
-        if (direction == "N"):
-            y += 1
-        elif (direction == "S"):
-            y -= 1
-        elif (direction == "W"):
-            x -= 1
-        elif (direction == "E"):
-            x += 1
-        else:
-            return False #invalid direction case
+        new_pos = self.calculate_new_position(direction)
+        
+        if (new_pos is None):
+            print(f"{self.name} received an invalid direction.")
+            return False
+    
+        x, y = new_pos
             
         #checking grid bounds
         max_x, max_y = planet["grid_size"]
@@ -182,7 +191,7 @@ class Drone(Spacecraft):
             return False
 
         #position and batter update
-        self.position = x, y
+        self.position = (x, y)
         self.battery -= battery_usage #we don't need to use terrain difficulty as the drone is flying
 
         print(f"{self.name} flew {direction} to {self.position} at altitude {self.altitude}. Battery: {self.battery:.1f}")
@@ -223,10 +232,40 @@ def add_obstacles(planet, obs = 2):
         if (x,y) not in planet["obstacles"]:
             planet["obstacles"].append((x,y))
 
-def recharge_rover(rover, planet):
+def recharge(rover, planet):
     #this function will user solar power to recharge the rover during daytime
     sunlight_start, sunlight_end = planet["sunlight_hours"]
     if (sunlight_start <= planet["planet_time"] <= sunlight_end):
         rover.battery += 2 
         rover.battery = min(rover.battery, 100) #this will ensure battery doesn't go above 100
         print(f"{rover.name} is recharging. Battery: {rover.battery}")
+
+class Mission(): #creating a mission
+    def __init__(self, planet):
+        self.planet = planet
+        self.vehicles = [] #keeping a record of all the rovers or drones on that planet
+        self.time = 1 #updates every hour
+
+    def add_vehicle(self, vehicle):
+        self.vehicles.append(vehicle)
+        print(f"{vehicle.name} added to mission on {self.planet['name']}")
+
+    def update_time(self):
+        self.planet["planet_time"] = (self.planet["planet_time"] + self.time_step) % 24 #staying within 24 hours earth time
+        print(f"Time on {self.planet['name']} is now {self.planet['planet_time']}")
+        #we are not keeping track of days
+
+    def recharge_all(self):
+        for vehicle in self.vehicles:
+            recharge(vehicle, self.planet)
+    
+    def random_obs(self, chance=0.3):
+        if (random.random() < chance): #geenrating a number between 0 and 1 and using probability to generate obstacles
+            add_obstacles(self.planet, obs=1)
+            print("Unknown obstacle detected") #adding it to known obstacles
+
+    def step(self): #one step of a rover
+        self.update_time()
+        self.recharge_all()
+        self.random_obs()
+
