@@ -102,7 +102,7 @@ class Spacecraft():
         elif (direction == "E"):
             x += 1
         else:
-            pass #no movement case
+            return False #invalid direction case
             
         #checking battery
         if self.battery <= 0:
@@ -149,6 +149,71 @@ class ExperimentRover(Rover):
         result = f"{instrument} measurement: {random.randint(1,100)}" #simulating an experiment reading
         self.experiment_data.append((planet["name"], self.position, result)) #storing the data as a tuple in the experiment data list
         print(f"{self.name} performed an experiment at {self.position}; {result}")
+
+class Drone(Spacecraft):
+    def __init__(self, name, position=(0, 0), battery=100, altitude=0, max_altitude=100):
+        super().__init__(name, position, battery)
+        self.altitude = altitude
+        self.max_altitude = max_altitude
+
+    def moveDrone(self, direction, planet):
+        x, y = self.position #assigning position to the drone
+        if (direction == "N"):
+            y += 1
+        elif (direction == "S"):
+            y -= 1
+        elif (direction == "W"):
+            x -= 1
+        elif (direction == "E"):
+            x += 1
+        else:
+            return False #invalid direction case
+            
+        #checking grid bounds
+        max_x, max_y = planet["grid_size"]
+        if not (0 <= x < max_x and 0 <= y < max_y):
+            print(f"{self.name} out of bounds!")
+            return False
+        
+        battery_usage = 2 #minimum battery usage required per movement
+
+        if (self.battery < battery_usage) :
+            print(f"{self.name} does not have sufficient battery.")
+            return False
+
+        #position and batter update
+        self.position = x, y
+        self.battery -= battery_usage #we don't need to use terrain difficulty as the drone is flying
+
+        print(f"{self.name} flew {direction} to {self.position} at altitude {self.altitude}. Battery: {self.battery:.1f}")
+        return True
+    
+    def changeAltitude(self, height):
+        new_alt = self.altitude + height
+
+        if (new_alt < 0):
+            print(f"{self.name} cannot go below ground level.")
+            return False
+        
+        if (new_alt > self.max_altitude):
+            print(f"{self.name} cannot exceed a max altitude of {self.max_altitude}.")
+            return False
+        
+        if (height > 5): #more battery usage for higher altitudes
+            battery_usage = 3
+        else:
+            battery_usage = 1
+
+        if (self.battery < battery_usage):
+            print(f"{self.name} does not have sufficient battery to change altitude.")
+            return False
+        
+        #updating altitude and battery
+        self.altitude = new_alt
+        self.battery -= battery_usage
+
+        print(f"{self.name} changed altitude to {self.altitude}. Battery: {self.battery}")
+        return True
 
 def add_obstacles(planet, obs = 2):
     #this function will generate random obstacles and add it to a planet's known data
