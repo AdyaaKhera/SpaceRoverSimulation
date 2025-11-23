@@ -1,0 +1,5 @@
+Planet: Mars
+Time: 0h
+Pathfinder moved N to (0, 1). Battery left: 98.0
+SkyScout flew E to (1, 0) at altitude 0. Battery: 118.0
+Time on Mars is now 3h

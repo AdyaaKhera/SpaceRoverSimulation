@@ -16,6 +16,14 @@ import matplotlib.pyplot as plt
 # terrain_difficulty = movement cost
 # sunlight_hours = (sunrise, sunset)
 
+LOG_FILE = "mission_log.txt" #this will contain all the logs for this mission
+
+def log_event(event_str):
+    #we will log an event
+    with open(LOG_FILE, "a") as f:
+        f.write(event_str + "\n")
+    print(event_str)  # printing the event to terminal as well 
+
 planetData = {
     
     "Mars": {
@@ -112,30 +120,30 @@ class Spacecraft():
         
         new_pos = self.calculate_new_position(direction)
         if (new_pos is None):
-            print("Invalid direction.")
+            log_event(f"{self.name}: invalid direction {direction}")
             return False
 
         x, y = new_pos
             
         #checking battery
         if self.battery <= 0:
-            print(f"{self.name} cannot move. Battery depleted.")
+            log_event(f"{self.name} cannot move. Battery depleted.")
             return False
         
         #checking planet gride size
         max_x, max_y = planet["grid_size"]
         if not (0 <= x < max_x and 0 <= y < max_y): #if the position is not within the grid, we print error
-           print(f"{self.name} cannot move. Position out of bounds.")
+           log_event(f"{self.name} cannot move. Out of bounds at {new_pos}")
            return False
        
         if ((x,y) in planet["obstacles"]):
-            print(f"{self.name} blocked by obstacle at ({x,y}).")
+            log_event(f"{self.name} blocked by obstacle at {new_pos}")
             return False
         
         self.position = (x, y) #assigning the updated position to the rover
         self.battery -= 1 * planet["terrain_difficulty"] #consuming battery according to movement and terrain difficulty
         self.battery = max(self.battery, 0) #avoids battery from going negative
-        print(f"{self.name} moved {direction} to {self.position}. Battery left: {self.battery:.1f}.")
+        log_event(f"{self.name} moved {direction} to {self.position}. Battery left: {self.battery:.1f}")
         return True
     
 class Rover(Spacecraft):
@@ -156,12 +164,12 @@ class ExperimentRover(Rover):
 
     def perform_experiment(self, planet):
         if not self.instruments:
-            print("No instruments found")
+            log_event(f"{self.name} has no instruments")
             return
         instrument = random.choice(self.instruments)
         result = f"{instrument} measurement: {random.randint(1,100)}" #simulating an experiment reading
         self.experiment_data.append((planet["name"], self.position, result)) #storing the data as a tuple in the experiment data list
-        print(f"{self.name} performed an experiment at {self.position}; {result}")
+        log_event(f"{self.name} performed an experiment at {self.position} on {planet['name']}: {result}")
 
 class Drone(Spacecraft):
     def __init__(self, name, position=(0, 0), battery=100, altitude=0, max_altitude=100):
@@ -173,7 +181,7 @@ class Drone(Spacecraft):
         new_pos = self.calculate_new_position(direction)
         
         if (new_pos is None):
-            print(f"{self.name} received an invalid direction.")
+            log_event(f"{self.name}: invalid direction {direction}")
             return False
     
         x, y = new_pos
@@ -181,20 +189,20 @@ class Drone(Spacecraft):
         #checking grid bounds
         max_x, max_y = planet["grid_size"]
         if not (0 <= x < max_x and 0 <= y < max_y):
-            print(f"{self.name} out of bounds!")
+            log_event(f"{self.name} out of bounds at {new_pos}")
             return False
         
         battery_usage = 2 #minimum battery usage required per movement
 
         if (self.battery < battery_usage) :
-            print(f"{self.name} does not have sufficient battery.")
+            log_event(f"{self.name} does not have enough battery to fly")
             return False
 
         #position and batter update
         self.position = (x, y)
         self.battery -= battery_usage #we don't need to use terrain difficulty as the drone is flying
 
-        print(f"{self.name} flew {direction} to {self.position} at altitude {self.altitude}. Battery: {self.battery:.1f}")
+        log_event(f"{self.name} flew {direction} to {self.position} at altitude {self.altitude}. Battery: {self.battery:.1f}")
         return True
     
     def changeAltitude(self, height):
@@ -253,7 +261,7 @@ class Mission(): #creating a mission
     def update_time(self, hours):
         self.time_step = hours
         self.planet["planet_time"] = (self.planet["planet_time"] + self.time_step) % 24 #staying within 24 hours earth time
-        print(f"Time on {self.planet['name']} is now {self.planet['planet_time']}")
+        log_event(f"Time on {self.planet['name']} is now {self.planet['planet_time']}h")
         #we are not keeping track of days
 
     def recharge_all(self):
@@ -285,6 +293,9 @@ class Mission(): #creating a mission
 mars = planetData["Mars"]
 
 mission = Mission(mars)
+
+log_event(f"Planet: {mission.planet['name']}")
+log_event(f"Time: {mission.planet['planet_time']}h")
 
 r1 = Rover("Pathfinder", instruments=["camera"])
 d1 = Drone("SkyScout", battery=120)
