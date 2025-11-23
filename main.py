@@ -5,7 +5,8 @@ Created on Fri Nov 21 14:29:39 2025
 """
 
 import random #will be used to introduce random obstacles
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt #will be used for planet simulation
+import time 
 
 #planet data dictionary contains all the information about planets in our database
 
@@ -288,6 +289,46 @@ class Mission(): #creating a mission
             print(f"  - {v.name}: position={v.position}, battery={v.battery}")
         print("=============================\n")
 
+def drawPlanet(planet, vehicles, showNames=True):
+    max_x, max_y = planet["grid_size"] #setting grid for planet
+    plt.figure(figsize=(6,6))
+    plt.xlim(0, max_x)
+    plt.ylim(0, max_y)
+    plt.xticks(range(max_x+1))
+    plt.yticks(range(max_y+1))
+    plt.grid(True, linewidth=0.5)
+
+    #drawing obstacles as black squares
+    if planet["obstacles"]:
+        ox, oy = zip(*planet["obstacles"]) #getting all the x and y coordinates
+        plt.scatter([x+0.5 for x in ox], [y+0.5 for y in oy], c='black', s=200, marker='s', label='Obstacle')
+
+    #drawing vehicles
+    for v in vehicles:
+        vx, vy = v.position
+        if isinstance(v, Drone):
+            plt.scatter(vx+0.5, vy+0.5, c='blue', s=150, marker='^', label='Drone' if showNames else "")
+            if showNames:
+                plt.text(vx+0.5, vy+0.5+0.2, f"{v.name}\nAlt:{v.altitude}", ha='center', va='bottom', fontsize=8)
+        else:  # Rover
+            plt.scatter(vx+0.5, vy+0.5, c='red', s=150, marker='o', label='Rover' if showNames else "")
+            if showNames:
+                plt.text(vx+0.5, vy+0.5+0.2, v.name, ha='center', va='bottom', fontsize=8)
+
+    plt.title(f"{planet['name']} - Time: {planet['planet_time']}h")
+    plt.gca().invert_yaxis()
+    plt.show(block=False)
+
+def animate_mission(planet, vehicles, steps=10, delay=0.5):
+    plt.ion()  # interactive mode on
+    #calling the draw planet function again and again to show the updated version
+    for i in range(steps):
+        plt.clf()  # clear figure
+        drawPlanet(planet, vehicles)
+        plt.pause(delay)
+    plt.ioff() #interactive mode off
+    plt.show()
+
 # --- Example Mission Simulation ---
 
 mars = planetData["Mars"]
@@ -308,3 +349,6 @@ d1.moveDrone("E", mars)
 
 mission.update_time(3)
 mission.status_report()
+
+drawPlanet(mars, mission.vehicles)
+#add the add animation and testing here
