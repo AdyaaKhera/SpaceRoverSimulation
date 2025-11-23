@@ -250,7 +250,8 @@ class Mission(): #creating a mission
         self.vehicles.append(vehicle)
         print(f"{vehicle.name} added to mission on {self.planet['name']}")
 
-    def update_time(self):
+    def update_time(self, hours):
+        self.time_step = hours
         self.planet["planet_time"] = (self.planet["planet_time"] + self.time_step) % 24 #staying within 24 hours earth time
         print(f"Time on {self.planet['name']} is now {self.planet['planet_time']}")
         #we are not keeping track of days
@@ -269,3 +270,30 @@ class Mission(): #creating a mission
         self.recharge_all()
         self.random_obs()
 
+    def status_report(self):
+        print("\n=== Mission Status Report ===")
+        print(f"Planet: {self.planet['name']}")
+        print(f"Time: {self.planet['planet_time']}h")
+        print(f"Known obstacles: {self.planet['obstacles']}")
+        print("\nVehicles:")
+        for v in self.vehicles:
+            print(f"  - {v.name}: position={v.position}, battery={v.battery}")
+        print("=============================\n")
+
+# --- Example Mission Simulation ---
+
+mars = planetData["Mars"]
+
+mission = Mission(mars)
+
+r1 = Rover("Pathfinder", instruments=["camera"])
+d1 = Drone("SkyScout", battery=120)
+
+mission.add_vehicle(r1)
+mission.add_vehicle(d1)
+
+r1.moveRover("N", mars)
+d1.moveDrone("E", mars)
+
+mission.update_time(3)
+mission.status_report()
