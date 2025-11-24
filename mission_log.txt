@@ -1,5 +1,2023 @@
 Planet: Mars
 Time: 0h
+
+=== FRAME 0 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 1h
+
+=== FRAME 1 ===
 Pathfinder moved N to (0, 1). Battery left: 98.0
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 2h
+
+=== FRAME 2 ===
+Pathfinder moved S to (0, 0). Battery left: 96.0
 SkyScout flew E to (1, 0) at altitude 0. Battery: 118.0
 Time on Mars is now 3h
+
+=== FRAME 3 ===
+Pathfinder moved E to (1, 0). Battery left: 94.0
+SkyScout flew W to (0, 0) at altitude 0. Battery: 116.0
+Time on Mars is now 4h
+
+=== FRAME 4 ===
+Pathfinder moved W to (0, 0). Battery left: 92.0
+SkyScout flew E to (1, 0) at altitude 1. Battery: 113.0
+Time on Mars is now 5h
+
+=== FRAME 5 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew E to (2, 0) at altitude 2. Battery: 110.0
+Time on Mars is now 6h
+
+=== FRAME 6 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (2, -1)
+Time on Mars is now 7h
+
+=== FRAME 7 ===
+Pathfinder moved N to (0, 1). Battery left: 92.0
+SkyScout out of bounds at (2, -1)
+Time on Mars is now 8h
+
+=== FRAME 8 ===
+Pathfinder moved N to (0, 2). Battery left: 92.0
+SkyScout flew E to (3, 0) at altitude 1. Battery: 98.0
+Time on Mars is now 9h
+
+=== FRAME 9 ===
+Pathfinder moved S to (0, 1). Battery left: 92.0
+SkyScout flew W to (2, 0) at altitude 1. Battery: 98.0
+Time on Mars is now 10h
+
+=== FRAME 10 ===
+Pathfinder moved E to (1, 1). Battery left: 92.0
+SkyScout flew E to (3, 0) at altitude 1. Battery: 98.0
+Time on Mars is now 11h
+
+=== FRAME 11 ===
+Pathfinder blocked by obstacle at (1, 0)
+SkyScout flew E to (4, 0) at altitude 1. Battery: 98.0
+Time on Mars is now 12h
+
+=== FRAME 12 ===
+Pathfinder blocked by obstacle at (1, 0)
+SkyScout flew N to (4, 1) at altitude 1. Battery: 98.0
+Time on Mars is now 13h
+
+=== FRAME 13 ===
+Pathfinder moved E to (2, 1). Battery left: 96.0
+SkyScout flew S to (4, 0) at altitude 1. Battery: 98.0
+Time on Mars is now 14h
+
+=== FRAME 14 ===
+Pathfinder moved S to (2, 0). Battery left: 96.0
+SkyScout flew E to (5, 0) at altitude 1. Battery: 98.0
+Time on Mars is now 15h
+
+=== FRAME 15 ===
+Pathfinder moved E to (3, 0). Battery left: 96.0
+SkyScout flew W to (4, 0) at altitude 1. Battery: 98.0
+Time on Mars is now 16h
+
+=== FRAME 16 ===
+Pathfinder moved N to (3, 1). Battery left: 96.0
+SkyScout flew E to (5, 0) at altitude 1. Battery: 98.0
+Time on Mars is now 17h
+
+=== FRAME 17 ===
+Pathfinder moved S to (3, 0). Battery left: 96.0
+SkyScout flew E to (6, 0) at altitude 1. Battery: 98.0
+Time on Mars is now 18h
+
+=== FRAME 18 ===
+Pathfinder moved N to (3, 1). Battery left: 96.0
+SkyScout flew E to (7, 0) at altitude 1. Battery: 98.0
+Time on Mars is now 19h
+
+=== FRAME 19 ===
+Pathfinder moved E to (4, 1). Battery left: 96.0
+SkyScout out of bounds at (7, -1)
+Time on Mars is now 20h
+
+=== FRAME 20 ===
+Pathfinder moved W to (3, 1). Battery left: 94.0
+SkyScout flew N to (7, 1) at altitude 1. Battery: 98.0
+Time on Mars is now 21h
+
+=== FRAME 21 ===
+Pathfinder moved N to (3, 2). Battery left: 92.0
+SkyScout flew E to (8, 1) at altitude 1. Battery: 96.0
+Time on Mars is now 22h
+
+=== FRAME 22 ===
+Pathfinder moved S to (3, 1). Battery left: 90.0
+SkyScout flew N to (8, 2) at altitude 1. Battery: 94.0
+Time on Mars is now 23h
+
+=== FRAME 23 ===
+Pathfinder moved N to (3, 2). Battery left: 88.0
+SkyScout flew E to (9, 2) at altitude 1. Battery: 92.0
+Time on Mars is now 0h
+
+=== FRAME 24 ===
+Pathfinder moved N to (3, 3). Battery left: 86.0
+SkyScout out of bounds at (10, 2)
+Time on Mars is now 1h
+
+=== FRAME 25 ===
+Pathfinder blocked by obstacle at (2, 3)
+SkyScout flew S to (9, 1) at altitude 1. Battery: 90.0
+Time on Mars is now 2h
+
+=== FRAME 26 ===
+Pathfinder moved S to (3, 2). Battery left: 84.0
+SkyScout out of bounds at (10, 1)
+Time on Mars is now 3h
+
+=== FRAME 27 ===
+Pathfinder moved N to (3, 3). Battery left: 82.0
+SkyScout flew S to (9, 0) at altitude 1. Battery: 88.0
+Time on Mars is now 4h
+
+=== FRAME 28 ===
+Pathfinder moved N to (3, 4). Battery left: 80.0
+SkyScout flew N to (9, 1) at altitude 1. Battery: 86.0
+Time on Mars is now 5h
+
+=== FRAME 29 ===
+Pathfinder moved N to (3, 5). Battery left: 78.0
+SkyScout flew W to (8, 1) at altitude 1. Battery: 84.0
+Time on Mars is now 6h
+
+=== FRAME 30 ===
+Pathfinder moved E to (4, 5). Battery left: 76.0
+SkyScout flew W to (7, 1) at altitude 1. Battery: 82.0
+Time on Mars is now 7h
+
+=== FRAME 31 ===
+Pathfinder moved N to (4, 6). Battery left: 76.0
+SkyScout flew E to (8, 1) at altitude 1. Battery: 82.0
+Time on Mars is now 8h
+
+=== FRAME 32 ===
+Pathfinder moved N to (4, 7). Battery left: 76.0
+SkyScout flew S to (8, 0) at altitude 1. Battery: 82.0
+Time on Mars is now 9h
+
+=== FRAME 33 ===
+Pathfinder moved N to (4, 8). Battery left: 76.0
+SkyScout flew W to (7, 0) at altitude 1. Battery: 82.0
+Time on Mars is now 10h
+
+=== FRAME 34 ===
+Pathfinder blocked by obstacle at (3, 8)
+SkyScout flew W to (6, 0) at altitude 1. Battery: 82.0
+Time on Mars is now 11h
+
+=== FRAME 35 ===
+Pathfinder moved E to (5, 8). Battery left: 78.0
+SkyScout flew N to (6, 1) at altitude 1. Battery: 82.0
+Time on Mars is now 12h
+
+=== FRAME 36 ===
+Pathfinder moved S to (5, 7). Battery left: 78.0
+SkyScout flew N to (6, 2) at altitude 1. Battery: 82.0
+Time on Mars is now 13h
+
+=== FRAME 37 ===
+Pathfinder moved N to (5, 8). Battery left: 78.0
+SkyScout flew W to (5, 2) at altitude 1. Battery: 82.0
+Time on Mars is now 14h
+
+=== FRAME 38 ===
+Pathfinder moved E to (6, 8). Battery left: 78.0
+SkyScout flew S to (5, 1) at altitude 2. Battery: 81.0
+Time on Mars is now 15h
+
+=== FRAME 39 ===
+Pathfinder moved N to (6, 9). Battery left: 78.0
+SkyScout flew E to (6, 1) at altitude 2. Battery: 81.0
+Time on Mars is now 16h
+
+=== FRAME 40 ===
+Pathfinder cannot move. Out of bounds at (6, 10)
+SkyScout flew E to (7, 1) at altitude 2. Battery: 81.0
+Time on Mars is now 17h
+
+=== FRAME 41 ===
+Pathfinder cannot move. Out of bounds at (6, 10)
+SkyScout flew S to (7, 0) at altitude 0. Battery: 80.0
+Time on Mars is now 18h
+
+=== FRAME 42 ===
+Pathfinder moved W to (5, 9). Battery left: 82.0
+SkyScout out of bounds at (7, -1)
+Time on Mars is now 19h
+
+=== FRAME 43 ===
+Pathfinder moved E to (6, 9). Battery left: 82.0
+SkyScout flew E to (8, 0) at altitude 0. Battery: 82.0
+Time on Mars is now 20h
+
+=== FRAME 44 ===
+Pathfinder moved S to (6, 8). Battery left: 80.0
+SkyScout flew N to (8, 1) at altitude 1. Battery: 79.0
+Time on Mars is now 21h
+
+=== FRAME 45 ===
+Pathfinder moved N to (6, 9). Battery left: 78.0
+SkyScout flew S to (8, 0) at altitude 1. Battery: 77.0
+Time on Mars is now 22h
+
+=== FRAME 46 ===
+Pathfinder moved E to (7, 9). Battery left: 76.0
+SkyScout out of bounds at (8, -1)
+Time on Mars is now 23h
+
+=== FRAME 47 ===
+Pathfinder moved S to (7, 8). Battery left: 74.0
+SkyScout flew W to (7, 0) at altitude 1. Battery: 75.0
+Time on Mars is now 0h
+
+=== FRAME 48 ===
+Pathfinder moved W to (6, 8). Battery left: 72.0
+SkyScout flew N to (7, 1) at altitude 1. Battery: 73.0
+Time on Mars is now 1h
+
+=== FRAME 49 ===
+Pathfinder moved S to (6, 7). Battery left: 70.0
+SkyScout flew W to (6, 1) at altitude 1. Battery: 71.0
+Time on Mars is now 2h
+Planet: Mars
+Time: 0h
+
+=== FRAME 0 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew N to (0, 1) at altitude 50. Battery: 118.0
+Time on Mars is now 1h
+
+=== FRAME 1 ===
+Pathfinder moved N to (0, 1). Battery left: 98.0
+SkyScout out of bounds at (-1, 1)
+Time on Mars is now 2h
+
+=== FRAME 2 ===
+Pathfinder moved S to (0, 0). Battery left: 96.0
+SkyScout flew E to (1, 1) at altitude 48. Battery: 115.0
+Time on Mars is now 3h
+
+=== FRAME 3 ===
+Pathfinder moved N to (0, 1). Battery left: 94.0
+SkyScout flew N to (1, 2) at altitude 48. Battery: 113.0
+Time on Mars is now 4h
+
+=== FRAME 4 ===
+Pathfinder moved E to (1, 1). Battery left: 92.0
+SkyScout flew S to (1, 1) at altitude 48. Battery: 111.0
+Time on Mars is now 5h
+
+=== FRAME 5 ===
+Pathfinder moved W to (0, 1). Battery left: 90.0
+SkyScout flew S to (1, 0) at altitude 46. Battery: 108.0
+Time on Mars is now 6h
+
+=== FRAME 6 ===
+Pathfinder cannot move. Out of bounds at (-1, 1)
+SkyScout flew E to (2, 0) at altitude 46. Battery: 106.0
+Time on Mars is now 7h
+
+=== FRAME 7 ===
+Pathfinder moved N to (0, 2). Battery left: 90.0
+SkyScout flew N to (2, 1) at altitude 46. Battery: 98.0
+Time on Mars is now 8h
+
+=== FRAME 8 ===
+Pathfinder cannot move. Out of bounds at (-1, 2)
+SkyScout flew E to (3, 1) at altitude 46. Battery: 98.0
+Time on Mars is now 9h
+
+=== FRAME 9 ===
+Pathfinder moved S to (0, 1). Battery left: 92.0
+SkyScout flew E to (4, 1) at altitude 48. Battery: 97.0
+Time on Mars is now 10h
+
+=== FRAME 10 ===
+Pathfinder moved S to (0, 0). Battery left: 92.0
+SkyScout flew S to (4, 0) at altitude 48. Battery: 97.0
+Time on Mars is now 11h
+
+=== FRAME 11 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout flew E to (5, 0) at altitude 48. Battery: 97.0
+Time on Mars is now 12h
+
+=== FRAME 12 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew N to (5, 1) at altitude 48. Battery: 97.0
+Time on Mars is now 13h
+
+=== FRAME 13 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout flew E to (6, 1) at altitude 46. Battery: 96.0
+Time on Mars is now 14h
+
+=== FRAME 14 ===
+Pathfinder moved E to (1, 0). Battery left: 98.0
+SkyScout flew E to (7, 1) at altitude 46. Battery: 96.0
+Time on Mars is now 15h
+
+=== FRAME 15 ===
+Pathfinder moved W to (0, 0). Battery left: 98.0
+SkyScout flew E to (8, 1) at altitude 46. Battery: 96.0
+Time on Mars is now 16h
+
+=== FRAME 16 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew E to (9, 1) at altitude 44. Battery: 95.0
+Time on Mars is now 17h
+
+=== FRAME 17 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout flew S to (9, 0) at altitude 44. Battery: 95.0
+Time on Mars is now 18h
+
+=== FRAME 18 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (10, 0)
+Time on Mars is now 19h
+
+=== FRAME 19 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (10, 0)
+Time on Mars is now 20h
+
+=== FRAME 20 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (9, -1)
+Time on Mars is now 21h
+
+=== FRAME 21 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (10, 0)
+Time on Mars is now 22h
+
+=== FRAME 22 ===
+Pathfinder moved N to (0, 1). Battery left: 98.0
+SkyScout out of bounds at (9, -1)
+Time on Mars is now 23h
+
+=== FRAME 23 ===
+Pathfinder cannot move. Out of bounds at (-1, 1)
+SkyScout out of bounds at (9, -1)
+Time on Mars is now 0h
+
+=== FRAME 24 ===
+Pathfinder moved E to (1, 1). Battery left: 96.0
+SkyScout flew N to (9, 1) at altitude 44. Battery: 95.0
+Time on Mars is now 1h
+
+=== FRAME 25 ===
+Pathfinder moved E to (2, 1). Battery left: 94.0
+SkyScout flew N to (9, 2) at altitude 44. Battery: 93.0
+Time on Mars is now 2h
+
+=== FRAME 26 ===
+Pathfinder moved E to (3, 1). Battery left: 92.0
+SkyScout flew W to (8, 2) at altitude 44. Battery: 91.0
+Time on Mars is now 3h
+
+=== FRAME 27 ===
+Pathfinder moved W to (2, 1). Battery left: 90.0
+SkyScout flew W to (7, 2) at altitude 44. Battery: 89.0
+Time on Mars is now 4h
+
+=== FRAME 28 ===
+Pathfinder moved E to (3, 1). Battery left: 88.0
+SkyScout flew N to (7, 3) at altitude 44. Battery: 87.0
+Time on Mars is now 5h
+
+=== FRAME 29 ===
+Pathfinder moved W to (2, 1). Battery left: 86.0
+SkyScout flew E to (8, 3) at altitude 44. Battery: 85.0
+Time on Mars is now 6h
+
+=== FRAME 30 ===
+Pathfinder moved W to (1, 1). Battery left: 84.0
+SkyScout flew N to (8, 4) at altitude 44. Battery: 83.0
+Time on Mars is now 7h
+
+=== FRAME 31 ===
+Pathfinder moved E to (2, 1). Battery left: 84.0
+SkyScout flew N to (8, 5) at altitude 44. Battery: 83.0
+Time on Mars is now 8h
+
+=== FRAME 32 ===
+Pathfinder moved S to (2, 0). Battery left: 84.0
+SkyScout flew W to (7, 5) at altitude 44. Battery: 83.0
+Time on Mars is now 9h
+
+=== FRAME 33 ===
+Pathfinder moved W to (1, 0). Battery left: 84.0
+SkyScout flew S to (7, 4) at altitude 44. Battery: 83.0
+Time on Mars is now 10h
+
+=== FRAME 34 ===
+Pathfinder cannot move. Out of bounds at (1, -1)
+SkyScout flew W to (6, 4) at altitude 43. Battery: 82.0
+Time on Mars is now 11h
+
+=== FRAME 35 ===
+Pathfinder cannot move. Out of bounds at (1, -1)
+SkyScout flew N to (6, 5) at altitude 43. Battery: 82.0
+Time on Mars is now 12h
+
+=== FRAME 36 ===
+Pathfinder moved W to (0, 0). Battery left: 88.0
+SkyScout flew S to (6, 4) at altitude 43. Battery: 82.0
+Time on Mars is now 13h
+
+=== FRAME 37 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout flew N to (6, 5) at altitude 43. Battery: 82.0
+Time on Mars is now 14h
+
+=== FRAME 38 ===
+Pathfinder moved N to (0, 1). Battery left: 90.0
+SkyScout flew S to (6, 4) at altitude 44. Battery: 81.0
+Time on Mars is now 15h
+
+=== FRAME 39 ===
+Pathfinder moved N to (0, 2). Battery left: 90.0
+SkyScout flew W to (5, 4) at altitude 44. Battery: 81.0
+Time on Mars is now 16h
+
+=== FRAME 40 ===
+Pathfinder moved S to (0, 1). Battery left: 90.0
+SkyScout flew W to (4, 4) at altitude 44. Battery: 81.0
+Time on Mars is now 17h
+
+=== FRAME 41 ===
+Pathfinder moved N to (0, 2). Battery left: 90.0
+SkyScout flew S to (4, 3) at altitude 44. Battery: 81.0
+Time on Mars is now 18h
+
+=== FRAME 42 ===
+Pathfinder moved N to (0, 3). Battery left: 90.0
+SkyScout flew N to (4, 4) at altitude 44. Battery: 81.0
+Time on Mars is now 19h
+
+=== FRAME 43 ===
+Pathfinder cannot move. Out of bounds at (-1, 3)
+SkyScout flew W to (3, 4) at altitude 44. Battery: 81.0
+Time on Mars is now 20h
+
+=== FRAME 44 ===
+Pathfinder moved S to (0, 2). Battery left: 90.0
+SkyScout flew W to (2, 4) at altitude 44. Battery: 79.0
+Time on Mars is now 21h
+
+=== FRAME 45 ===
+Pathfinder cannot move. Out of bounds at (-1, 2)
+SkyScout flew S to (2, 3) at altitude 44. Battery: 77.0
+Time on Mars is now 22h
+
+=== FRAME 46 ===
+Pathfinder moved E to (1, 2). Battery left: 88.0
+SkyScout flew S to (2, 2) at altitude 44. Battery: 75.0
+Time on Mars is now 23h
+
+=== FRAME 47 ===
+Pathfinder moved W to (0, 2). Battery left: 86.0
+SkyScout flew W to (1, 2) at altitude 44. Battery: 73.0
+Time on Mars is now 0h
+
+=== FRAME 48 ===
+Pathfinder moved E to (1, 2). Battery left: 84.0
+SkyScout flew E to (2, 2) at altitude 44. Battery: 71.0
+Time on Mars is now 1h
+
+=== FRAME 49 ===
+Pathfinder moved S to (1, 1). Battery left: 82.0
+SkyScout flew S to (2, 1) at altitude 44. Battery: 69.0
+Time on Mars is now 2h
+Planet: Mars
+Time: 0h
+
+=== FRAME 0 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 1h
+
+=== FRAME 1 ===
+Pathfinder moved N to (0, 1). Battery left: 98.0
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 2h
+
+=== FRAME 2 ===
+Pathfinder moved N to (0, 2). Battery left: 96.0
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 3h
+
+=== FRAME 3 ===
+Pathfinder moved S to (0, 1). Battery left: 94.0
+SkyScout flew E to (1, 0) at altitude 50. Battery: 118.0
+Time on Mars is now 4h
+
+=== FRAME 4 ===
+Pathfinder moved N to (0, 2). Battery left: 92.0
+SkyScout out of bounds at (1, -1)
+Time on Mars is now 5h
+
+=== FRAME 5 ===
+Pathfinder moved N to (0, 3). Battery left: 90.0
+SkyScout flew N to (1, 1) at altitude 50. Battery: 116.0
+Time on Mars is now 6h
+
+=== FRAME 6 ===
+Pathfinder moved N to (0, 4). Battery left: 88.0
+SkyScout flew N to (1, 2) at altitude 50. Battery: 114.0
+Time on Mars is now 7h
+
+=== FRAME 7 ===
+Pathfinder moved S to (0, 3). Battery left: 88.0
+SkyScout flew N to (1, 3) at altitude 50. Battery: 98.0
+Time on Mars is now 8h
+
+=== FRAME 8 ===
+Pathfinder moved S to (0, 2). Battery left: 88.0
+SkyScout flew W to (0, 3) at altitude 50. Battery: 98.0
+Time on Mars is now 9h
+
+=== FRAME 9 ===
+Pathfinder moved N to (0, 3). Battery left: 88.0
+SkyScout flew S to (0, 2) at altitude 50. Battery: 98.0
+Time on Mars is now 10h
+
+=== FRAME 10 ===
+Pathfinder moved E to (1, 3). Battery left: 88.0
+SkyScout flew E to (1, 2) at altitude 50. Battery: 98.0
+Time on Mars is now 11h
+
+=== FRAME 11 ===
+Pathfinder moved N to (1, 4). Battery left: 88.0
+SkyScout flew N to (1, 3) at altitude 50. Battery: 98.0
+Time on Mars is now 12h
+
+=== FRAME 12 ===
+Pathfinder moved N to (1, 5). Battery left: 88.0
+SkyScout flew E to (2, 3) at altitude 50. Battery: 98.0
+Time on Mars is now 13h
+
+=== FRAME 13 ===
+Pathfinder moved E to (2, 5). Battery left: 88.0
+SkyScout flew E to (3, 3) at altitude 50. Battery: 98.0
+Time on Mars is now 14h
+
+=== FRAME 14 ===
+Pathfinder moved W to (1, 5). Battery left: 88.0
+SkyScout flew E to (4, 3) at altitude 51. Battery: 97.0
+Time on Mars is now 15h
+
+=== FRAME 15 ===
+Pathfinder moved W to (0, 5). Battery left: 88.0
+SkyScout flew E to (5, 3) at altitude 51. Battery: 97.0
+Time on Mars is now 16h
+
+=== FRAME 16 ===
+Pathfinder cannot move. Out of bounds at (-1, 5)
+SkyScout flew E to (6, 3) at altitude 51. Battery: 97.0
+Time on Mars is now 17h
+
+=== FRAME 17 ===
+Pathfinder moved N to (0, 6). Battery left: 90.0
+SkyScout flew N to (6, 4) at altitude 52. Battery: 96.0
+Time on Mars is now 18h
+
+=== FRAME 18 ===
+Pathfinder moved N to (0, 7). Battery left: 90.0
+SkyScout flew S to (6, 3) at altitude 52. Battery: 96.0
+Time on Mars is now 19h
+
+=== FRAME 19 ===
+Pathfinder moved E to (1, 7). Battery left: 90.0
+SkyScout flew S to (6, 2) at altitude 53. Battery: 95.0
+Time on Mars is now 20h
+
+=== FRAME 20 ===
+Pathfinder moved E to (2, 7). Battery left: 88.0
+SkyScout flew E to (7, 2) at altitude 53. Battery: 93.0
+Time on Mars is now 21h
+
+=== FRAME 21 ===
+Pathfinder moved W to (1, 7). Battery left: 86.0
+SkyScout flew W to (6, 2) at altitude 53. Battery: 91.0
+Time on Mars is now 22h
+
+=== FRAME 22 ===
+Pathfinder moved S to (1, 6). Battery left: 84.0
+SkyScout flew N to (6, 3) at altitude 53. Battery: 89.0
+Time on Mars is now 23h
+
+=== FRAME 23 ===
+Pathfinder moved S to (1, 5). Battery left: 82.0
+SkyScout flew W to (5, 3) at altitude 52. Battery: 86.0
+Time on Mars is now 0h
+
+=== FRAME 24 ===
+Pathfinder moved S to (1, 4). Battery left: 80.0
+SkyScout flew W to (4, 3) at altitude 52. Battery: 84.0
+Time on Mars is now 1h
+
+=== FRAME 25 ===
+Pathfinder moved E to (2, 4). Battery left: 78.0
+SkyScout flew W to (3, 3) at altitude 54. Battery: 81.0
+Time on Mars is now 2h
+
+=== FRAME 26 ===
+Pathfinder blocked by obstacle at (2, 3)
+SkyScout flew S to (3, 2) at altitude 54. Battery: 79.0
+Time on Mars is now 3h
+
+=== FRAME 27 ===
+Pathfinder moved N to (2, 5). Battery left: 76.0
+SkyScout flew S to (3, 1) at altitude 55. Battery: 76.0
+Time on Mars is now 4h
+
+=== FRAME 28 ===
+Pathfinder moved E to (3, 5). Battery left: 74.0
+SkyScout flew W to (2, 1) at altitude 55. Battery: 74.0
+Time on Mars is now 5h
+
+=== FRAME 29 ===
+Pathfinder moved N to (3, 6). Battery left: 72.0
+SkyScout flew S to (2, 0) at altitude 54. Battery: 71.0
+Time on Mars is now 6h
+
+=== FRAME 30 ===
+Pathfinder moved E to (4, 6). Battery left: 70.0
+SkyScout flew N to (2, 1) at altitude 54. Battery: 69.0
+Time on Mars is now 7h
+
+=== FRAME 31 ===
+Pathfinder moved E to (5, 6). Battery left: 70.0
+SkyScout flew N to (2, 2) at altitude 54. Battery: 69.0
+Time on Mars is now 8h
+
+=== FRAME 32 ===
+Pathfinder blocked by obstacle at (5, 5)
+SkyScout flew S to (2, 1) at altitude 54. Battery: 69.0
+Time on Mars is now 9h
+
+=== FRAME 33 ===
+Pathfinder moved W to (4, 6). Battery left: 72.0
+SkyScout flew S to (2, 0) at altitude 54. Battery: 69.0
+Time on Mars is now 10h
+
+=== FRAME 34 ===
+Pathfinder moved S to (4, 5). Battery left: 72.0
+SkyScout out of bounds at (2, -1)
+Time on Mars is now 11h
+
+=== FRAME 35 ===
+Pathfinder blocked by obstacle at (4, 4)
+SkyScout flew W to (1, 0) at altitude 55. Battery: 70.0
+Time on Mars is now 12h
+
+=== FRAME 36 ===
+Pathfinder moved N to (4, 6). Battery left: 74.0
+SkyScout flew W to (0, 0) at altitude 55. Battery: 70.0
+Time on Mars is now 13h
+
+=== FRAME 37 ===
+Pathfinder moved S to (4, 5). Battery left: 74.0
+SkyScout flew N to (0, 1) at altitude 56. Battery: 69.0
+Time on Mars is now 14h
+
+=== FRAME 38 ===
+Pathfinder blocked by obstacle at (4, 4)
+SkyScout out of bounds at (-1, 1)
+Time on Mars is now 15h
+
+=== FRAME 39 ===
+Pathfinder blocked by obstacle at (5, 5)
+SkyScout flew S to (0, 0) at altitude 56. Battery: 71.0
+Time on Mars is now 16h
+
+=== FRAME 40 ===
+Pathfinder moved W to (3, 5). Battery left: 78.0
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 17h
+
+=== FRAME 41 ===
+Pathfinder moved N to (3, 6). Battery left: 78.0
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 18h
+
+=== FRAME 42 ===
+Pathfinder moved W to (2, 6). Battery left: 78.0
+SkyScout flew E to (1, 0) at altitude 56. Battery: 75.0
+Time on Mars is now 19h
+
+=== FRAME 43 ===
+Pathfinder moved S to (2, 5). Battery left: 78.0
+SkyScout flew E to (2, 0) at altitude 56. Battery: 75.0
+Time on Mars is now 20h
+
+=== FRAME 44 ===
+Pathfinder moved W to (1, 5). Battery left: 76.0
+SkyScout flew N to (2, 1) at altitude 56. Battery: 73.0
+Time on Mars is now 21h
+
+=== FRAME 45 ===
+Pathfinder moved N to (1, 6). Battery left: 74.0
+SkyScout flew W to (1, 1) at altitude 56. Battery: 71.0
+Time on Mars is now 22h
+
+=== FRAME 46 ===
+Pathfinder moved E to (2, 6). Battery left: 72.0
+SkyScout flew S to (1, 0) at altitude 56. Battery: 69.0
+Time on Mars is now 23h
+
+=== FRAME 47 ===
+Pathfinder moved W to (1, 6). Battery left: 70.0
+SkyScout flew E to (2, 0) at altitude 56. Battery: 67.0
+Time on Mars is now 0h
+
+=== FRAME 48 ===
+Pathfinder moved S to (1, 5). Battery left: 68.0
+SkyScout out of bounds at (2, -1)
+Time on Mars is now 1h
+
+=== FRAME 49 ===
+Pathfinder moved N to (1, 6). Battery left: 66.0
+SkyScout flew N to (2, 1) at altitude 56. Battery: 65.0
+Time on Mars is now 2h
+Planet: Moon
+Time: 0h
+
+=== FRAME 0 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (-1, 0)
+Time on Moon is now 1h
+
+=== FRAME 1 ===
+Pathfinder moved N to (0, 1). Battery left: 97.0
+SkyScout out of bounds at (-1, 0)
+Time on Moon is now 2h
+
+=== FRAME 2 ===
+Pathfinder cannot move. Out of bounds at (-1, 1)
+SkyScout out of bounds at (0, -1)
+Time on Moon is now 3h
+
+=== FRAME 3 ===
+Pathfinder moved E to (1, 1). Battery left: 94.0
+SkyScout out of bounds at (-1, 0)
+Time on Moon is now 4h
+
+=== FRAME 4 ===
+Pathfinder moved E to (2, 1). Battery left: 91.0
+SkyScout out of bounds at (0, -1)
+Time on Moon is now 5h
+
+=== FRAME 5 ===
+Pathfinder moved S to (2, 0). Battery left: 88.0
+SkyScout out of bounds at (-1, 0)
+Time on Moon is now 6h
+
+=== FRAME 6 ===
+Pathfinder cannot move. Out of bounds at (2, -1)
+SkyScout out of bounds at (0, -1)
+Time on Moon is now 7h
+
+=== FRAME 7 ===
+Pathfinder moved W to (1, 0). Battery left: 85.0
+SkyScout flew E to (1, 0) at altitude 50. Battery: 114.0
+Time on Moon is now 8h
+
+=== FRAME 8 ===
+Pathfinder cannot move. Out of bounds at (1, -1)
+SkyScout flew N to (1, 1) at altitude 50. Battery: 112.0
+Time on Moon is now 9h
+
+=== FRAME 9 ===
+Pathfinder cannot move. Out of bounds at (1, -1)
+SkyScout flew N to (1, 2) at altitude 51. Battery: 98.0
+Time on Moon is now 10h
+
+=== FRAME 10 ===
+Pathfinder moved W to (0, 0). Battery left: 86.0
+SkyScout flew S to (1, 1) at altitude 51. Battery: 98.0
+Time on Moon is now 11h
+
+=== FRAME 11 ===
+Pathfinder moved E to (1, 0). Battery left: 85.0
+SkyScout flew S to (1, 0) at altitude 52. Battery: 97.0
+Time on Moon is now 12h
+
+=== FRAME 12 ===
+Pathfinder moved E to (2, 0). Battery left: 84.0
+SkyScout flew W to (0, 0) at altitude 52. Battery: 97.0
+Time on Moon is now 13h
+
+=== FRAME 13 ===
+Pathfinder moved W to (1, 0). Battery left: 83.0
+SkyScout out of bounds at (0, -1)
+Time on Moon is now 14h
+
+=== FRAME 14 ===
+Pathfinder moved W to (0, 0). Battery left: 82.0
+SkyScout flew E to (1, 0) at altitude 52. Battery: 98.0
+Time on Moon is now 15h
+
+=== FRAME 15 ===
+Pathfinder moved E to (1, 0). Battery left: 81.0
+SkyScout out of bounds at (1, -1)
+Time on Moon is now 16h
+
+=== FRAME 16 ===
+Pathfinder cannot move. Out of bounds at (1, -1)
+SkyScout flew E to (2, 0) at altitude 52. Battery: 98.0
+Time on Moon is now 17h
+
+=== FRAME 17 ===
+Pathfinder cannot move. Out of bounds at (1, -1)
+SkyScout flew N to (2, 1) at altitude 53. Battery: 97.0
+Time on Moon is now 18h
+
+=== FRAME 18 ===
+Pathfinder moved N to (1, 1). Battery left: 84.0
+SkyScout flew N to (2, 2) at altitude 53. Battery: 97.0
+Time on Moon is now 19h
+
+=== FRAME 19 ===
+Pathfinder moved W to (0, 1). Battery left: 83.0
+SkyScout flew N to (2, 3) at altitude 53. Battery: 97.0
+Time on Moon is now 20h
+
+=== FRAME 20 ===
+Pathfinder moved E to (1, 1). Battery left: 82.0
+SkyScout flew E to (3, 3) at altitude 53. Battery: 97.0
+Time on Moon is now 21h
+
+=== FRAME 21 ===
+Pathfinder moved W to (0, 1). Battery left: 81.0
+SkyScout flew S to (3, 2) at altitude 53. Battery: 97.0
+Time on Moon is now 22h
+
+=== FRAME 22 ===
+Pathfinder moved N to (0, 2). Battery left: 78.0
+SkyScout flew N to (3, 3) at altitude 53. Battery: 95.0
+Time on Moon is now 23h
+
+=== FRAME 23 ===
+Pathfinder moved E to (1, 2). Battery left: 75.0
+SkyScout flew S to (3, 2) at altitude 53. Battery: 93.0
+Time on Moon is now 0h
+
+=== FRAME 24 ===
+Pathfinder moved N to (1, 3). Battery left: 72.0
+SkyScout flew S to (3, 1) at altitude 53. Battery: 91.0
+Time on Moon is now 1h
+
+=== FRAME 25 ===
+Pathfinder moved S to (1, 2). Battery left: 69.0
+SkyScout flew S to (3, 0) at altitude 53. Battery: 89.0
+Time on Moon is now 2h
+
+=== FRAME 26 ===
+Pathfinder moved E to (2, 2). Battery left: 66.0
+SkyScout flew E to (4, 0) at altitude 53. Battery: 87.0
+Time on Moon is now 3h
+
+=== FRAME 27 ===
+Pathfinder moved E to (3, 2). Battery left: 63.0
+SkyScout out of bounds at (4, -1)
+Time on Moon is now 4h
+
+=== FRAME 28 ===
+Pathfinder moved S to (3, 1). Battery left: 60.0
+SkyScout flew N to (4, 1) at altitude 56. Battery: 83.0
+Time on Moon is now 5h
+
+=== FRAME 29 ===
+Pathfinder moved W to (2, 1). Battery left: 57.0
+SkyScout flew E to (5, 1) at altitude 56. Battery: 81.0
+Time on Moon is now 6h
+
+=== FRAME 30 ===
+Pathfinder moved E to (3, 1). Battery left: 54.0
+SkyScout flew S to (5, 0) at altitude 56. Battery: 79.0
+Time on Moon is now 7h
+
+=== FRAME 31 ===
+Pathfinder moved S to (3, 0). Battery left: 51.0
+SkyScout flew E to (6, 0) at altitude 55. Battery: 76.0
+Time on Moon is now 8h
+
+=== FRAME 32 ===
+Pathfinder moved N to (3, 1). Battery left: 48.0
+SkyScout flew N to (6, 1) at altitude 55. Battery: 74.0
+Time on Moon is now 9h
+
+=== FRAME 33 ===
+Pathfinder moved E to (4, 1). Battery left: 47.0
+SkyScout flew W to (5, 1) at altitude 55. Battery: 74.0
+Time on Moon is now 10h
+
+=== FRAME 34 ===
+Pathfinder moved N to (4, 2). Battery left: 46.0
+SkyScout flew W to (4, 1) at altitude 55. Battery: 74.0
+Time on Moon is now 11h
+
+=== FRAME 35 ===
+Pathfinder moved S to (4, 1). Battery left: 45.0
+SkyScout flew E to (5, 1) at altitude 55. Battery: 74.0
+Time on Moon is now 12h
+
+=== FRAME 36 ===
+Pathfinder moved S to (4, 0). Battery left: 44.0
+SkyScout flew N to (5, 2) at altitude 55. Battery: 74.0
+Time on Moon is now 13h
+
+=== FRAME 37 ===
+Pathfinder moved N to (4, 1). Battery left: 43.0
+SkyScout flew S to (5, 1) at altitude 55. Battery: 74.0
+Time on Moon is now 14h
+
+=== FRAME 38 ===
+Pathfinder moved N to (4, 2). Battery left: 42.0
+SkyScout flew E to (6, 1) at altitude 53. Battery: 73.0
+Time on Moon is now 15h
+
+=== FRAME 39 ===
+Pathfinder moved E to (5, 2). Battery left: 41.0
+SkyScout flew W to (5, 1) at altitude 53. Battery: 73.0
+Time on Moon is now 16h
+
+=== FRAME 40 ===
+Pathfinder moved N to (5, 3). Battery left: 40.0
+SkyScout flew E to (6, 1) at altitude 53. Battery: 73.0
+Time on Moon is now 17h
+
+=== FRAME 41 ===
+Pathfinder moved W to (4, 3). Battery left: 39.0
+SkyScout flew W to (5, 1) at altitude 53. Battery: 73.0
+Time on Moon is now 18h
+
+=== FRAME 42 ===
+Pathfinder moved E to (5, 3). Battery left: 38.0
+SkyScout flew E to (6, 1) at altitude 53. Battery: 73.0
+Time on Moon is now 19h
+
+=== FRAME 43 ===
+Pathfinder moved N to (5, 4). Battery left: 37.0
+SkyScout flew E to (7, 1) at altitude 53. Battery: 73.0
+Time on Moon is now 20h
+
+=== FRAME 44 ===
+Pathfinder moved E to (6, 4). Battery left: 36.0
+SkyScout flew W to (6, 1) at altitude 51. Battery: 72.0
+Time on Moon is now 21h
+
+=== FRAME 45 ===
+Pathfinder moved W to (5, 4). Battery left: 35.0
+SkyScout flew S to (6, 0) at altitude 51. Battery: 72.0
+Time on Moon is now 22h
+
+=== FRAME 46 ===
+Pathfinder moved N to (5, 5). Battery left: 32.0
+SkyScout flew W to (5, 0) at altitude 49. Battery: 69.0
+Time on Moon is now 23h
+
+=== FRAME 47 ===
+Pathfinder moved S to (5, 4). Battery left: 29.0
+SkyScout flew W to (4, 0) at altitude 49. Battery: 67.0
+Time on Moon is now 0h
+
+=== FRAME 48 ===
+Pathfinder moved W to (4, 4). Battery left: 26.0
+SkyScout flew N to (4, 1) at altitude 49. Battery: 65.0
+Time on Moon is now 1h
+
+=== FRAME 49 ===
+Pathfinder moved E to (5, 4). Battery left: 23.0
+SkyScout flew N to (4, 2) at altitude 51. Battery: 62.0
+Time on Moon is now 2h
+Planet: Mars
+Time: 0h
+
+=== FRAME 0 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew N to (0, 1) at altitude 50. Battery: 118.0
+Time on Mars is now 1h
+Planet: Mars
+Time: 0h
+
+=== FRAME 0 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 1h
+
+=== FRAME 1 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 2h
+
+=== FRAME 2 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew N to (0, 1) at altitude 50. Battery: 118.0
+Time on Mars is now 3h
+
+=== FRAME 3 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew S to (0, 0) at altitude 50. Battery: 116.0
+Time on Mars is now 4h
+
+=== FRAME 4 ===
+Pathfinder moved N to (0, 1). Battery left: 98.0
+SkyScout flew N to (0, 1) at altitude 50. Battery: 114.0
+Time on Mars is now 5h
+
+=== FRAME 5 ===
+Pathfinder moved E to (1, 1). Battery left: 96.0
+SkyScout flew S to (0, 0) at altitude 52. Battery: 111.0
+Time on Mars is now 6h
+
+=== FRAME 6 ===
+Pathfinder moved N to (1, 2). Battery left: 94.0
+SkyScout flew N to (0, 1) at altitude 50. Battery: 108.0
+Time on Mars is now 7h
+
+=== FRAME 7 ===
+Pathfinder moved N to (1, 3). Battery left: 94.0
+SkyScout out of bounds at (-1, 1)
+Time on Mars is now 8h
+
+=== FRAME 8 ===
+Pathfinder moved S to (1, 2). Battery left: 94.0
+SkyScout out of bounds at (-1, 1)
+Time on Mars is now 9h
+
+=== FRAME 9 ===
+Pathfinder moved S to (1, 1). Battery left: 94.0
+SkyScout flew N to (0, 2) at altitude 49. Battery: 98.0
+Time on Mars is now 10h
+
+=== FRAME 10 ===
+Pathfinder moved S to (1, 0). Battery left: 94.0
+SkyScout flew E to (1, 2) at altitude 49. Battery: 98.0
+Time on Mars is now 11h
+
+=== FRAME 11 ===
+Pathfinder moved E to (2, 0). Battery left: 94.0
+SkyScout flew S to (1, 1) at altitude 49. Battery: 98.0
+Time on Mars is now 12h
+
+=== FRAME 12 ===
+Pathfinder moved N to (2, 1). Battery left: 94.0
+SkyScout flew W to (0, 1) at altitude 49. Battery: 98.0
+Time on Mars is now 13h
+
+=== FRAME 13 ===
+Pathfinder moved S to (2, 0). Battery left: 94.0
+SkyScout out of bounds at (-1, 1)
+Time on Mars is now 14h
+
+=== FRAME 14 ===
+Pathfinder moved N to (2, 1). Battery left: 94.0
+SkyScout flew E to (1, 1) at altitude 48. Battery: 98.0
+Time on Mars is now 15h
+
+=== FRAME 15 ===
+Pathfinder moved S to (2, 0). Battery left: 94.0
+SkyScout flew W to (0, 1) at altitude 47. Battery: 97.0
+Time on Mars is now 16h
+
+=== FRAME 16 ===
+Pathfinder cannot move. Out of bounds at (2, -1)
+SkyScout flew E to (1, 1) at altitude 47. Battery: 97.0
+Time on Mars is now 17h
+
+=== FRAME 17 ===
+Pathfinder cannot move. Out of bounds at (2, -1)
+SkyScout flew E to (2, 1) at altitude 47. Battery: 97.0
+Time on Mars is now 18h
+
+=== FRAME 18 ===
+Pathfinder cannot move. Out of bounds at (2, -1)
+SkyScout flew E to (3, 1) at altitude 47. Battery: 97.0
+Time on Mars is now 19h
+
+=== FRAME 19 ===
+Pathfinder moved W to (1, 0). Battery left: 98.0
+SkyScout flew S to (3, 0) at altitude 47. Battery: 97.0
+Time on Mars is now 20h
+
+=== FRAME 20 ===
+Pathfinder moved W to (0, 0). Battery left: 96.0
+SkyScout flew N to (3, 1) at altitude 47. Battery: 95.0
+Time on Mars is now 21h
+
+=== FRAME 21 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew E to (4, 1) at altitude 47. Battery: 93.0
+Time on Mars is now 22h
+
+=== FRAME 22 ===
+Pathfinder blocked by obstacle at (0, 1)
+SkyScout flew E to (5, 1) at altitude 47. Battery: 91.0
+Time on Mars is now 23h
+
+=== FRAME 23 ===
+Pathfinder blocked by obstacle at (0, 1)
+SkyScout flew W to (4, 1) at altitude 47. Battery: 89.0
+Time on Mars is now 0h
+
+=== FRAME 24 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout flew S to (4, 0) at altitude 47. Battery: 87.0
+Time on Mars is now 1h
+
+=== FRAME 25 ===
+Pathfinder blocked by obstacle at (0, 1)
+SkyScout flew W to (3, 0) at altitude 47. Battery: 85.0
+Time on Mars is now 2h
+
+=== FRAME 26 ===
+Pathfinder moved E to (1, 0). Battery left: 94.0
+SkyScout out of bounds at (3, -1)
+Time on Mars is now 3h
+
+=== FRAME 27 ===
+Pathfinder moved W to (0, 0). Battery left: 92.0
+SkyScout flew W to (2, 0) at altitude 47. Battery: 83.0
+Time on Mars is now 4h
+
+=== FRAME 28 ===
+Pathfinder moved E to (1, 0). Battery left: 90.0
+SkyScout flew W to (1, 0) at altitude 47. Battery: 81.0
+Time on Mars is now 5h
+
+=== FRAME 29 ===
+Pathfinder moved W to (0, 0). Battery left: 88.0
+SkyScout out of bounds at (1, -1)
+Time on Mars is now 6h
+
+=== FRAME 30 ===
+Pathfinder blocked by obstacle at (0, 1)
+SkyScout flew E to (2, 0) at altitude 47. Battery: 79.0
+Time on Mars is now 7h
+
+=== FRAME 31 ===
+Pathfinder blocked by obstacle at (0, 1)
+SkyScout flew E to (3, 0) at altitude 47. Battery: 79.0
+Time on Mars is now 8h
+
+=== FRAME 32 ===
+Pathfinder blocked by obstacle at (0, 1)
+SkyScout flew E to (4, 0) at altitude 47. Battery: 79.0
+Time on Mars is now 9h
+
+=== FRAME 33 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew N to (4, 1) at altitude 47. Battery: 79.0
+Time on Mars is now 10h
+
+=== FRAME 34 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout flew W to (3, 1) at altitude 47. Battery: 79.0
+Time on Mars is now 11h
+
+=== FRAME 35 ===
+Pathfinder blocked by obstacle at (0, 1)
+SkyScout flew S to (3, 0) at altitude 47. Battery: 79.0
+Time on Mars is now 12h
+
+=== FRAME 36 ===
+Pathfinder blocked by obstacle at (1, 0)
+SkyScout flew N to (3, 1) at altitude 47. Battery: 79.0
+Time on Mars is now 13h
+
+=== FRAME 37 ===
+Pathfinder blocked by obstacle at (0, 1)
+SkyScout flew E to (4, 1) at altitude 47. Battery: 79.0
+Time on Mars is now 14h
+
+=== FRAME 38 ===
+Pathfinder blocked by obstacle at (0, 1)
+SkyScout flew N to (4, 2) at altitude 47. Battery: 79.0
+Time on Mars is now 15h
+
+=== FRAME 39 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew W to (3, 2) at altitude 47. Battery: 79.0
+Time on Mars is now 16h
+
+=== FRAME 40 ===
+Pathfinder blocked by obstacle at (1, 0)
+SkyScout flew E to (4, 2) at altitude 47. Battery: 79.0
+Time on Mars is now 17h
+
+=== FRAME 41 ===
+Pathfinder blocked by obstacle at (1, 0)
+SkyScout flew W to (3, 2) at altitude 48. Battery: 78.0
+Time on Mars is now 18h
+
+=== FRAME 42 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout flew N to (3, 3) at altitude 48. Battery: 78.0
+Time on Mars is now 19h
+
+=== FRAME 43 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew N to (3, 4) at altitude 48. Battery: 78.0
+Time on Mars is now 20h
+
+=== FRAME 44 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew N to (3, 5) at altitude 48. Battery: 76.0
+Time on Mars is now 21h
+
+=== FRAME 45 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout flew E to (4, 5) at altitude 48. Battery: 74.0
+Time on Mars is now 22h
+
+=== FRAME 46 ===
+Pathfinder blocked by obstacle at (0, 1)
+SkyScout flew W to (3, 5) at altitude 46. Battery: 71.0
+Time on Mars is now 23h
+
+=== FRAME 47 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew N to (3, 6) at altitude 46. Battery: 69.0
+Time on Mars is now 0h
+
+=== FRAME 48 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout flew W to (2, 6) at altitude 46. Battery: 67.0
+Time on Mars is now 1h
+
+=== FRAME 49 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout flew S to (2, 5) at altitude 44. Battery: 64.0
+Time on Mars is now 2h
+Planet: Mars
+Time: 0h
+
+=== FRAME 0 ===
+Pathfinder moved N to (0, 1). Battery left: 98.0
+SkyScout flew N to (0, 1) at altitude 50. Battery: 118.0
+Time on Mars is now 1h
+
+=== FRAME 1 ===
+Pathfinder moved S to (0, 0). Battery left: 96.0
+SkyScout out of bounds at (-1, 1)
+Time on Mars is now 2h
+
+=== FRAME 2 ===
+Pathfinder moved E to (1, 0). Battery left: 94.0
+SkyScout flew S to (0, 0) at altitude 50. Battery: 116.0
+Time on Mars is now 3h
+
+=== FRAME 3 ===
+Pathfinder moved W to (0, 0). Battery left: 92.0
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 4h
+
+=== FRAME 4 ===
+Pathfinder moved N to (0, 1). Battery left: 90.0
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 5h
+
+=== FRAME 5 ===
+Pathfinder moved N to (0, 2). Battery left: 88.0
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 6h
+
+=== FRAME 6 ===
+Pathfinder moved N to (0, 3). Battery left: 86.0
+SkyScout flew E to (1, 0) at altitude 50. Battery: 114.0
+Time on Mars is now 7h
+
+=== FRAME 7 ===
+Pathfinder moved S to (0, 2). Battery left: 86.0
+SkyScout flew W to (0, 0) at altitude 48. Battery: 98.0
+Time on Mars is now 8h
+
+=== FRAME 8 ===
+Pathfinder moved E to (1, 2). Battery left: 86.0
+SkyScout flew N to (0, 1) at altitude 47. Battery: 97.0
+Time on Mars is now 9h
+
+=== FRAME 9 ===
+Pathfinder moved N to (1, 3). Battery left: 86.0
+SkyScout out of bounds at (-1, 1)
+Time on Mars is now 10h
+
+=== FRAME 10 ===
+Pathfinder moved W to (0, 3). Battery left: 86.0
+SkyScout flew N to (0, 2) at altitude 45. Battery: 98.0
+Time on Mars is now 11h
+
+=== FRAME 11 ===
+Pathfinder moved E to (1, 3). Battery left: 86.0
+SkyScout flew E to (1, 2) at altitude 47. Battery: 97.0
+Time on Mars is now 12h
+
+=== FRAME 12 ===
+Pathfinder moved N to (1, 4). Battery left: 86.0
+SkyScout flew S to (1, 1) at altitude 47. Battery: 97.0
+Time on Mars is now 13h
+
+=== FRAME 13 ===
+Pathfinder moved N to (1, 5). Battery left: 86.0
+SkyScout flew S to (1, 0) at altitude 47. Battery: 97.0
+Time on Mars is now 14h
+
+=== FRAME 14 ===
+Pathfinder moved N to (1, 6). Battery left: 86.0
+SkyScout flew N to (1, 1) at altitude 47. Battery: 97.0
+Time on Mars is now 15h
+
+=== FRAME 15 ===
+Pathfinder moved S to (1, 5). Battery left: 86.0
+SkyScout flew W to (0, 1) at altitude 45. Battery: 96.0
+Time on Mars is now 16h
+
+=== FRAME 16 ===
+Pathfinder moved W to (0, 5). Battery left: 86.0
+SkyScout flew S to (0, 0) at altitude 44. Battery: 95.0
+Time on Mars is now 17h
+
+=== FRAME 17 ===
+Pathfinder moved E to (1, 5). Battery left: 86.0
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 18h
+
+=== FRAME 18 ===
+Pathfinder moved E to (2, 5). Battery left: 86.0
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 19h
+
+=== FRAME 19 ===
+Pathfinder moved W to (1, 5). Battery left: 86.0
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 20h
+
+=== FRAME 20 ===
+Pathfinder moved E to (2, 5). Battery left: 84.0
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 21h
+
+=== FRAME 21 ===
+Pathfinder moved S to (2, 4). Battery left: 82.0
+SkyScout flew N to (0, 1) at altitude 47. Battery: 96.0
+Time on Mars is now 22h
+
+=== FRAME 22 ===
+Pathfinder moved N to (2, 5). Battery left: 80.0
+SkyScout flew E to (1, 1) at altitude 47. Battery: 94.0
+Time on Mars is now 23h
+
+=== FRAME 23 ===
+Pathfinder moved N to (2, 6). Battery left: 78.0
+SkyScout flew S to (1, 0) at altitude 47. Battery: 92.0
+Time on Mars is now 0h
+
+=== FRAME 24 ===
+Pathfinder moved E to (3, 6). Battery left: 76.0
+SkyScout flew W to (0, 0) at altitude 47. Battery: 90.0
+Time on Mars is now 1h
+
+=== FRAME 25 ===
+Pathfinder moved N to (3, 7). Battery left: 74.0
+SkyScout flew N to (0, 1) at altitude 47. Battery: 88.0
+Time on Mars is now 2h
+
+=== FRAME 26 ===
+Pathfinder moved W to (2, 7). Battery left: 72.0
+SkyScout flew E to (1, 1) at altitude 46. Battery: 85.0
+Time on Mars is now 3h
+
+=== FRAME 27 ===
+Pathfinder moved N to (2, 8). Battery left: 70.0
+SkyScout flew E to (2, 1) at altitude 46. Battery: 83.0
+Time on Mars is now 4h
+
+=== FRAME 28 ===
+Pathfinder moved S to (2, 7). Battery left: 68.0
+SkyScout flew W to (1, 1) at altitude 47. Battery: 80.0
+Time on Mars is now 5h
+
+=== FRAME 29 ===
+Pathfinder moved S to (2, 6). Battery left: 66.0
+SkyScout flew W to (0, 1) at altitude 48. Battery: 77.0
+Time on Mars is now 6h
+
+=== FRAME 30 ===
+Pathfinder moved N to (2, 7). Battery left: 64.0
+SkyScout out of bounds at (-1, 1)
+Time on Mars is now 7h
+
+=== FRAME 31 ===
+Pathfinder moved W to (1, 7). Battery left: 64.0
+SkyScout flew E to (1, 1) at altitude 46. Battery: 76.0
+Time on Mars is now 8h
+
+=== FRAME 32 ===
+Pathfinder moved W to (0, 7). Battery left: 64.0
+SkyScout flew W to (0, 1) at altitude 47. Battery: 75.0
+Time on Mars is now 9h
+
+=== FRAME 33 ===
+Pathfinder moved S to (0, 6). Battery left: 64.0
+SkyScout out of bounds at (-1, 1)
+Time on Mars is now 10h
+
+=== FRAME 34 ===
+Pathfinder cannot move. Out of bounds at (-1, 6)
+SkyScout flew S to (0, 0) at altitude 47. Battery: 77.0
+Time on Mars is now 11h
+
+=== FRAME 35 ===
+Pathfinder cannot move. Out of bounds at (-1, 6)
+SkyScout flew E to (1, 0) at altitude 47. Battery: 77.0
+Time on Mars is now 12h
+
+=== FRAME 36 ===
+Pathfinder moved N to (0, 7). Battery left: 68.0
+SkyScout out of bounds at (1, -1)
+Time on Mars is now 13h
+
+=== FRAME 37 ===
+Pathfinder moved E to (1, 7). Battery left: 68.0
+SkyScout flew W to (0, 0) at altitude 47. Battery: 79.0
+Time on Mars is now 14h
+
+=== FRAME 38 ===
+Pathfinder moved N to (1, 8). Battery left: 68.0
+SkyScout flew N to (0, 1) at altitude 47. Battery: 79.0
+Time on Mars is now 15h
+
+=== FRAME 39 ===
+Pathfinder moved W to (0, 8). Battery left: 68.0
+SkyScout flew E to (1, 1) at altitude 46. Battery: 78.0
+Time on Mars is now 16h
+
+=== FRAME 40 ===
+Pathfinder moved E to (1, 8). Battery left: 68.0
+SkyScout flew W to (0, 1) at altitude 46. Battery: 78.0
+Time on Mars is now 17h
+
+=== FRAME 41 ===
+Pathfinder moved N to (1, 9). Battery left: 68.0
+SkyScout flew N to (0, 2) at altitude 46. Battery: 78.0
+Time on Mars is now 18h
+
+=== FRAME 42 ===
+Pathfinder moved S to (1, 8). Battery left: 68.0
+SkyScout flew N to (0, 3) at altitude 46. Battery: 78.0
+Time on Mars is now 19h
+
+=== FRAME 43 ===
+Pathfinder moved E to (2, 8). Battery left: 68.0
+SkyScout out of bounds at (-1, 3)
+Time on Mars is now 20h
+
+=== FRAME 44 ===
+Pathfinder moved N to (2, 9). Battery left: 66.0
+SkyScout flew N to (0, 4) at altitude 46. Battery: 78.0
+Time on Mars is now 21h
+
+=== FRAME 45 ===
+Pathfinder moved W to (1, 9). Battery left: 64.0
+SkyScout flew N to (0, 5) at altitude 46. Battery: 76.0
+Time on Mars is now 22h
+
+=== FRAME 46 ===
+Pathfinder cannot move. Out of bounds at (1, 10)
+SkyScout flew S to (0, 4) at altitude 46. Battery: 74.0
+Time on Mars is now 23h
+
+=== FRAME 47 ===
+Pathfinder cannot move. Out of bounds at (1, 10)
+SkyScout flew S to (0, 3) at altitude 46. Battery: 72.0
+Time on Mars is now 0h
+
+=== FRAME 48 ===
+Pathfinder blocked by obstacle at (0, 9)
+SkyScout flew E to (1, 3) at altitude 46. Battery: 70.0
+Time on Mars is now 1h
+
+=== FRAME 49 ===
+Pathfinder moved E to (2, 9). Battery left: 62.0
+SkyScout flew N to (1, 4) at altitude 46. Battery: 68.0
+Time on Mars is now 2h
+Planet: Mars
+Time: 0h
+
+=== FRAME 0 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (1, 0)
+Time on Mars is now 1h
+
+=== FRAME 1 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 2h
+
+=== FRAME 2 ===
+Pathfinder cannot move. Out of bounds at (0, 1)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 3h
+
+=== FRAME 3 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 4h
+
+=== FRAME 4 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 5h
+
+=== FRAME 5 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 6h
+
+=== FRAME 6 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 7h
+
+=== FRAME 7 ===
+Pathfinder cannot move. Out of bounds at (0, 1)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 8h
+
+=== FRAME 8 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (1, 0)
+Time on Mars is now 9h
+
+=== FRAME 9 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 10h
+
+=== FRAME 10 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 11h
+
+=== FRAME 11 ===
+Pathfinder cannot move. Out of bounds at (0, 1)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 12h
+
+=== FRAME 12 ===
+Pathfinder cannot move. Out of bounds at (0, 1)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 13h
+
+=== FRAME 13 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 14h
+
+=== FRAME 14 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 15h
+
+=== FRAME 15 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 16h
+
+=== FRAME 16 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 17h
+
+=== FRAME 17 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 18h
+
+=== FRAME 18 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 19h
+
+=== FRAME 19 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 20h
+
+=== FRAME 20 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 21h
+
+=== FRAME 21 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 22h
+
+=== FRAME 22 ===
+Pathfinder cannot move. Out of bounds at (0, 1)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 23h
+
+=== FRAME 23 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 0h
+
+=== FRAME 24 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (1, 0)
+Time on Mars is now 1h
+
+=== FRAME 25 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 2h
+
+=== FRAME 26 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (1, 0)
+Time on Mars is now 3h
+
+=== FRAME 27 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 4h
+
+=== FRAME 28 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 5h
+
+=== FRAME 29 ===
+Pathfinder cannot move. Out of bounds at (0, 1)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 6h
+
+=== FRAME 30 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 7h
+
+=== FRAME 31 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 8h
+
+=== FRAME 32 ===
+Pathfinder cannot move. Out of bounds at (0, 1)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 9h
+
+=== FRAME 33 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (1, 0)
+Time on Mars is now 10h
+
+=== FRAME 34 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (1, 0)
+Time on Mars is now 11h
+
+=== FRAME 35 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (1, 0)
+Time on Mars is now 12h
+
+=== FRAME 36 ===
+Pathfinder cannot move. Out of bounds at (0, 1)
+SkyScout out of bounds at (1, 0)
+Time on Mars is now 13h
+
+=== FRAME 37 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 14h
+
+=== FRAME 38 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 15h
+
+=== FRAME 39 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (0, -1)
+Time on Mars is now 16h
+
+=== FRAME 40 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 17h
+
+=== FRAME 41 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 18h
+
+=== FRAME 42 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 19h
+
+=== FRAME 43 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 20h
+
+=== FRAME 44 ===
+Pathfinder cannot move. Out of bounds at (0, -1)
+SkyScout out of bounds at (1, 0)
+Time on Mars is now 21h
+
+=== FRAME 45 ===
+Pathfinder cannot move. Out of bounds at (0, 1)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 22h
+
+=== FRAME 46 ===
+Pathfinder cannot move. Out of bounds at (-1, 0)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 23h
+
+=== FRAME 47 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (0, 1)
+Time on Mars is now 0h
+
+=== FRAME 48 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 1h
+
+=== FRAME 49 ===
+Pathfinder cannot move. Out of bounds at (1, 0)
+SkyScout out of bounds at (-1, 0)
+Time on Mars is now 2h
+Planet: Mars
+Time: 0h
+
+=== FRAME 0 ===
+Pathfinder moved E to (1, 0). Battery left: 98.0
+SkyScout flew E to (1, 0) at altitude 50. Battery: 118.0
+Time on Mars is now 1h
+
+=== FRAME 1 ===
+Pathfinder moved W to (0, 0). Battery left: 96.0
+SkyScout flew N to (1, 1) at altitude 50. Battery: 116.0
+Time on Mars is now 2h
+
+=== FRAME 2 ===
+Pathfinder moved E to (1, 0). Battery left: 94.0
+SkyScout flew W to (0, 1) at altitude 48. Battery: 113.0
+Time on Mars is now 3h
+
+=== FRAME 3 ===
+Pathfinder cannot move. Out of bounds at (1, -1)
+SkyScout flew E to (1, 1) at altitude 46. Battery: 110.0
+Time on Mars is now 4h
+
+=== FRAME 4 ===
+Pathfinder cannot move. Out of bounds at (1, -1)
+SkyScout flew W to (0, 1) at altitude 46. Battery: 108.0
+Time on Mars is now 5h
+
+=== FRAME 5 ===
+Pathfinder moved N to (1, 1). Battery left: 92.0
+SkyScout flew E to (1, 1) at altitude 46. Battery: 106.0
+Time on Mars is now 6h
+
+=== FRAME 6 ===
+Pathfinder moved E to (2, 1). Battery left: 90.0
+SkyScout flew W to (0, 1) at altitude 46. Battery: 104.0
+Time on Mars is now 7h
+
+=== FRAME 7 ===
+Pathfinder moved W to (1, 1). Battery left: 90.0
+SkyScout flew S to (0, 0) at altitude 46. Battery: 98.0
+Time on Mars is now 8h
+
+=== FRAME 8 ===
+Pathfinder moved E to (2, 1). Battery left: 90.0
+SkyScout flew E to (1, 0) at altitude 46. Battery: 98.0
+Time on Mars is now 9h
+
+=== FRAME 9 ===
+Pathfinder moved S to (2, 0). Battery left: 90.0
+SkyScout flew N to (1, 1) at altitude 46. Battery: 98.0
+Time on Mars is now 10h
+
+=== FRAME 10 ===
+Pathfinder moved N to (2, 1). Battery left: 90.0
+SkyScout flew N to (1, 2) at altitude 46. Battery: 98.0
+Time on Mars is now 11h
+
+=== FRAME 11 ===
+Pathfinder moved N to (2, 2). Battery left: 90.0
+SkyScout flew N to (1, 3) at altitude 46. Battery: 98.0
+Time on Mars is now 12h
+
+=== FRAME 12 ===
+Pathfinder moved E to (3, 2). Battery left: 90.0
+SkyScout flew W to (0, 3) at altitude 47. Battery: 97.0
+Time on Mars is now 13h
+
+=== FRAME 13 ===
+Pathfinder moved E to (4, 2). Battery left: 90.0
+SkyScout flew N to (0, 4) at altitude 47. Battery: 97.0
+Time on Mars is now 14h
+
+=== FRAME 14 ===
+Pathfinder moved E to (5, 2). Battery left: 90.0
+SkyScout out of bounds at (-1, 4)
+Time on Mars is now 15h
+
+=== FRAME 15 ===
+Pathfinder moved E to (6, 2). Battery left: 90.0
+SkyScout flew N to (0, 5) at altitude 47. Battery: 98.0
+Time on Mars is now 16h
+
+=== FRAME 16 ===
+Pathfinder moved W to (5, 2). Battery left: 90.0
+SkyScout flew E to (1, 5) at altitude 47. Battery: 98.0
+Time on Mars is now 17h
+
+=== FRAME 17 ===
+Pathfinder moved W to (4, 2). Battery left: 90.0
+SkyScout flew E to (2, 5) at altitude 47. Battery: 98.0
+Time on Mars is now 18h
+
+=== FRAME 18 ===
+Pathfinder moved W to (3, 2). Battery left: 90.0
+SkyScout flew E to (3, 5) at altitude 47. Battery: 98.0
+Time on Mars is now 19h
+
+=== FRAME 19 ===
+Pathfinder moved E to (4, 2). Battery left: 90.0
+SkyScout flew S to (3, 4) at altitude 47. Battery: 98.0
+Time on Mars is now 20h
+
+=== FRAME 20 ===
+Pathfinder moved N to (4, 3). Battery left: 88.0
+SkyScout flew N to (3, 5) at altitude 48. Battery: 95.0
+Time on Mars is now 21h
+
+=== FRAME 21 ===
+Pathfinder moved S to (4, 2). Battery left: 86.0
+SkyScout flew E to (4, 5) at altitude 49. Battery: 92.0
+Time on Mars is now 22h
+
+=== FRAME 22 ===
+Pathfinder moved N to (4, 3). Battery left: 84.0
+SkyScout flew N to (4, 6) at altitude 49. Battery: 90.0
+Time on Mars is now 23h
+
+=== FRAME 23 ===
+Pathfinder moved W to (3, 3). Battery left: 82.0
+SkyScout flew S to (4, 5) at altitude 49. Battery: 88.0
+Time on Mars is now 0h
+
+=== FRAME 24 ===
+Pathfinder moved N to (3, 4). Battery left: 80.0
+SkyScout flew W to (3, 5) at altitude 49. Battery: 86.0
+Time on Mars is now 1h
+
+=== FRAME 25 ===
+Pathfinder moved W to (2, 4). Battery left: 78.0
+SkyScout flew S to (3, 4) at altitude 49. Battery: 84.0
+Time on Mars is now 2h
+
+=== FRAME 26 ===
+Pathfinder moved N to (2, 5). Battery left: 76.0
+SkyScout flew E to (4, 4) at altitude 49. Battery: 82.0
+Time on Mars is now 3h
+
+=== FRAME 27 ===
+Pathfinder moved E to (3, 5). Battery left: 74.0
+SkyScout flew S to (4, 3) at altitude 49. Battery: 80.0
+Time on Mars is now 4h
+
+=== FRAME 28 ===
+Pathfinder moved S to (3, 4). Battery left: 72.0
+SkyScout flew S to (4, 2) at altitude 49. Battery: 78.0
+Time on Mars is now 5h
+
+=== FRAME 29 ===
+Pathfinder moved E to (4, 4). Battery left: 70.0
+SkyScout flew E to (5, 2) at altitude 50. Battery: 75.0
+Time on Mars is now 6h
+
+=== FRAME 30 ===
+Pathfinder moved N to (4, 5). Battery left: 68.0
+SkyScout flew E to (6, 2) at altitude 50. Battery: 73.0
+Time on Mars is now 7h
+
+=== FRAME 31 ===
+Pathfinder moved W to (3, 5). Battery left: 68.0
+SkyScout flew S to (6, 1) at altitude 52. Battery: 72.0
+Time on Mars is now 8h
+
+=== FRAME 32 ===
+Pathfinder moved E to (4, 5). Battery left: 68.0
+SkyScout flew W to (5, 1) at altitude 51. Battery: 71.0
+Time on Mars is now 9h
+
+=== FRAME 33 ===
+Pathfinder blocked by obstacle at (5, 5)
+SkyScout flew S to (5, 0) at altitude 49. Battery: 70.0
+Time on Mars is now 10h
+
+=== FRAME 34 ===
+Pathfinder moved W to (3, 5). Battery left: 70.0
+SkyScout flew E to (6, 0) at altitude 49. Battery: 70.0
+Time on Mars is now 11h
+
+=== FRAME 35 ===
+Pathfinder moved S to (3, 4). Battery left: 70.0
+SkyScout flew N to (6, 1) at altitude 49. Battery: 70.0
+Time on Mars is now 12h
+
+=== FRAME 36 ===
+Pathfinder moved E to (4, 4). Battery left: 70.0
+SkyScout flew S to (6, 0) at altitude 49. Battery: 70.0
+Time on Mars is now 13h
+
+=== FRAME 37 ===
+Pathfinder moved W to (3, 4). Battery left: 70.0
+SkyScout flew N to (6, 1) at altitude 49. Battery: 70.0
+Time on Mars is now 14h
+
+=== FRAME 38 ===
+Pathfinder moved E to (4, 4). Battery left: 70.0
+SkyScout flew E to (7, 1) at altitude 50. Battery: 69.0
+Time on Mars is now 15h
+
+=== FRAME 39 ===
+Pathfinder moved N to (4, 5). Battery left: 70.0
+SkyScout flew N to (7, 2) at altitude 50. Battery: 69.0
+Time on Mars is now 16h
+
+=== FRAME 40 ===
+Pathfinder blocked by obstacle at (5, 5)
+SkyScout flew W to (6, 2) at altitude 50. Battery: 69.0
+Time on Mars is now 17h
+
+=== FRAME 41 ===
+Pathfinder moved W to (3, 5). Battery left: 72.0
+SkyScout flew N to (6, 3) at altitude 50. Battery: 69.0
+Time on Mars is now 18h
+
+=== FRAME 42 ===
+Pathfinder moved W to (2, 5). Battery left: 72.0
+SkyScout flew N to (6, 4) at altitude 50. Battery: 69.0
+Time on Mars is now 19h
+
+=== FRAME 43 ===
+Pathfinder blocked by obstacle at (1, 5)
+SkyScout flew W to (5, 4) at altitude 50. Battery: 69.0
+Time on Mars is now 20h
+
+=== FRAME 44 ===
+Pathfinder moved S to (2, 4). Battery left: 72.0
+SkyScout flew S to (5, 3) at altitude 50. Battery: 67.0
+Time on Mars is now 21h
+
+=== FRAME 45 ===
+Pathfinder moved E to (3, 4). Battery left: 70.0
+SkyScout flew W to (4, 3) at altitude 52. Battery: 64.0
+Time on Mars is now 22h
+
+=== FRAME 46 ===
+Pathfinder moved N to (3, 5). Battery left: 68.0
+SkyScout flew N to (4, 4) at altitude 52. Battery: 62.0
+Time on Mars is now 23h
+
+=== FRAME 47 ===
+Pathfinder moved W to (2, 5). Battery left: 66.0
+SkyScout flew W to (3, 4) at altitude 54. Battery: 59.0
+Time on Mars is now 0h
+
+=== FRAME 48 ===
+Pathfinder moved E to (3, 5). Battery left: 64.0
+SkyScout flew S to (3, 3) at altitude 54. Battery: 57.0
+Time on Mars is now 1h
+
+=== FRAME 49 ===
+Pathfinder moved S to (3, 4). Battery left: 62.0
+SkyScout flew E to (4, 3) at altitude 54. Battery: 55.0
+Time on Mars is now 2h

@@ -173,7 +173,7 @@ class ExperimentRover(Rover):
         log_event(f"{self.name} performed an experiment at {self.position} on {planet['name']}: {result}")
 
 class Drone(Spacecraft):
-    def __init__(self, name, position=(0, 0), battery=100, altitude=0, max_altitude=100):
+    def __init__(self, name, position=(0, 0), battery=100, altitude=50, max_altitude=100):
         super().__init__(name, position, battery)
         self.altitude = altitude
         self.max_altitude = max_altitude
@@ -289,44 +289,85 @@ class Mission(): #creating a mission
             print(f"  - {v.name}: position={v.position}, battery={v.battery}")
         print("=============================\n")
 
-def drawPlanet(planet, vehicles, showNames=True):
-    max_x, max_y = planet["grid_size"] #setting grid for planet
-    plt.figure(figsize=(6,6))
-    plt.xlim(0, max_x)
-    plt.ylim(0, max_y)
-    plt.xticks(range(max_x+1))
-    plt.yticks(range(max_y+1))
-    plt.grid(True, linewidth=0.5)
+def drawPlanet(planet, vehicles, ax):
+    max_x, max_y = planet["grid_size"]
 
-    #drawing obstacles as black squares
+    #bg planet color
+    ax.set_facecolor(planet["color"])
+
+    ax.set_title(f"{planet['name']} - Time {planet['planet_time']}h")
+
+    ax.set_xticks(range(max_x + 1))
+    ax.set_yticks(range(max_y + 1))
+    ax.grid(True, color="white", linewidth=0.4)
+
+    ax.set_xlim(-1, max_x)
+    ax.set_ylim(-1, max_y)
+
+    #drawing obstacles
     if planet["obstacles"]:
-        ox, oy = zip(*planet["obstacles"]) #getting all the x and y coordinates
-        plt.scatter([x+0.5 for x in ox], [y+0.5 for y in oy], c='black', s=200, marker='s', label='Obstacle')
+        ox, oy = zip(*planet["obstacles"])
+        ax.scatter(ox, oy, c="black", s=100, marker="s", label="Obstacle")
 
-    #drawing vehicles
+    #draing vehicles
     for v in vehicles:
-        vx, vy = v.position
+        x, y = v.position
+
         if isinstance(v, Drone):
-            plt.scatter(vx+0.5, vy+0.5, c='blue', s=150, marker='^', label='Drone' if showNames else "")
-            if showNames:
-                plt.text(vx+0.5, vy+0.5+0.2, f"{v.name}\nAlt:{v.altitude}", ha='center', va='bottom', fontsize=8)
-        else:  # Rover
-            plt.scatter(vx+0.5, vy+0.5, c='red', s=150, marker='o', label='Rover' if showNames else "")
-            if showNames:
-                plt.text(vx+0.5, vy+0.5+0.2, v.name, ha='center', va='bottom', fontsize=8)
+            ax.scatter([x], [y], s=180, c="blue", marker="*", label=v.name)
+        else:
+            ax.scatter([x], [y], s=180, c="yellow", marker="o", label=v.name)
 
-    plt.title(f"{planet['name']} - Time: {planet['planet_time']}h")
-    plt.gca().invert_yaxis()
-    plt.show(block=False)
+    ax.legend(loc="upper right")
 
-def animate_mission(planet, vehicles, steps=10, delay=0.5):
-    plt.ion()  # interactive mode on
-    #calling the draw planet function again and again to show the updated version
+
+def animate_mission(planet, vehicles, steps=50, delay=0.5):
+    fig, ax = plt.subplots()
+    plt.ion()
+
+    mission = Mission(planet)  
+    mission.vehicles = vehicles  
+
     for i in range(steps):
-        plt.clf()  # clear figure
-        drawPlanet(planet, vehicles)
+
+        log_event(f"\n=== FRAME {i} ===")
+
+        #moving vehicle vehicles
+        for v in vehicles:
+            direction = random.choice(["N", "S", "E", "W"])
+
+            if isinstance(v, Rover):
+                v.moveRover(direction, planet)
+
+                # Chance to run experiment
+                if isinstance(v, ExperimentRover) and random.random() < 0.3:
+                    v.perform_experiment(planet)
+
+            elif isinstance(v, Drone):
+                v.moveDrone(direction, planet)
+
+                # Occasionally change altitude
+                if random.random() < 0.2:
+                    v.changeAltitude(random.choice([-2, -1, 1, 2]))
+
+        #recharging during sunlight
+        mission.recharge_all()
+
+        # adding random obstacles
+        mission.random_obs()
+
+        #increasing time by 1 hour
+        mission.update_time(1)
+
+        #logging status
+        mission.status_report()
+
+        #updating animation frame
+        ax.clear()
+        drawPlanet(planet, vehicles, ax)
         plt.pause(delay)
-    plt.ioff() #interactive mode off
+
+    plt.ioff()
     plt.show()
 
 # --- Example Mission Simulation ---
@@ -344,11 +385,4 @@ d1 = Drone("SkyScout", battery=120)
 mission.add_vehicle(r1)
 mission.add_vehicle(d1)
 
-r1.moveRover("N", mars)
-d1.moveDrone("E", mars)
-
-mission.update_time(3)
-mission.status_report()
-
-drawPlanet(mars, mission.vehicles)
-#add the add animation and testing here
+animate_mission(mars, mission.vehicles)
